@@ -30,8 +30,8 @@ foreach($arCSS as $arItem){?><link rel="stylesheet" href="<?=$arItem;?>" /><?
     <div class="header-phone-cart">
 
         <div class="header-phone">+7 876 556 454</div>
-       <div class="header-cart"><a href="#" class="cart-head" ><span   class="icon cart-icon"><img src="img/svg_compare-01.svg"> </span><span class="cart-count">4</span></a></div>
-        <div class="header-cart"><a href="#" class="cart-head" ><span   class="icon cart-icon"><img src="img/basket.svg"> </span><span class="cart-count">3</span></a></div>
+       <div class="header-cart"><a href="#" class="cart-head" ><span   class="icon cart-icon"><img src="img/svg_compare-01.svg"> </span><span class="cart-count"><sup>4</sup></span></a></div>
+        <div class="header-cart"><a href="#" class="cart-head" ><span   class="icon cart-icon"><img src="img/basket.svg"> </span><span class="cart-count"><sup>3</sup></span></a></div>
 
 
     </div>

@@ -19,5 +19,3 @@ $_page = array(
     'title'=> 'Magma',
     'type_page'=>'main'
 );
-
-?>
