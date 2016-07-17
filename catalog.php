@@ -5,7 +5,7 @@ include __DIR__.'/tmp/catalog_data.php';
 ?>
 
 
-    <nav class="catalog-nav" xmlns="http://www.w3.org/1999/html">
+<nav class="catalog-nav" xmlns="http://www.w3.org/1999/html">
     <ul class="catalog-nav-main">
         <? foreach ($arCatalogMenu as $menuItem) {?>
         <li class="catalog-nav-main-item">
@@ -56,26 +56,32 @@ include __DIR__.'/tmp/catalog_data.php';
 
 <section class="catalog-content colarea">
     <? for ($i = 0; $i<7; $i++)
-    for ($j = 0; $j<4; $j++)
-    {?>
+        for ($j = 0; $j<4; $j++)
+    { $extraClass = '';
+        if(!empty($arProductInfo[$j%2]['new']))
+            $extraClass = $arProductInfo[$j%2]['new'];
+        if(!empty($arProductInfo[$j%2]['discount']))
+            $extraClass = $arProductInfo[$j%2]['discount'];?>
+     <div class="m-catalog-item col4 <?=$extraClass;?>">
+         <a href="#" class="compare"><img src="img/svg_compare-01.svg"></a>
+        <a href="#" class="cart"><img src="img/basket.svg"></a>
         <a href="#">
-        <div class="m-catalog-item col4">
             <div class="m-catalog-item-over">
                 <div class="m-cat-img" style="background-image: url(<?=$arProductImg[$j];?>)"></div>
                 <div class="m-cat-text">
                     <h3 class="product-name"><?=$arProductInfo[$j%2]['name'];?></h3>
                     <h3 class="price"><?=$arProductInfo[$j%2]['price'];?></h3>
                     <div class="m-cat-desc nolower"><?=$arProductInfo[$j%2]['desc1'];?></div>
-                    
                 </div>
             </div>
-        </div>
-        </a>
+         </a>
+     </div>
+
 <?}?>
 </section>
 
 
-    <section class="catalog-pre-footer">
+<section class="catalog-pre-footer">
         <div class="colarea">
             <div class="col3"></div>
             <div class="pager pager-bottom col3">
