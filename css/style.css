@@ -27,6 +27,7 @@ a{text-decoration: none;}
     list-style: none;
     margin:15px 200px 15px 0;
     padding:0;
+    text-transform: lowercase;
 }
 .header .menu li{
     display: inline-block;
@@ -197,6 +198,15 @@ font-weight: 500;
     right: 26px;
 }
 
+.m-catalog-item .cart:hover{
+    opacity: 0.6;
+}
+
+.m-catalog-item .compare:hover{
+    opacity: 0.6;
+}
+
+
 .m-catalog-item .compare{
     display: none;
     position: absolute;
@@ -257,9 +267,15 @@ font-weight: 500;
 @media only screen and (max-width: 1024px){
     .main-catalog-over{margin:25px 0;}
     .m-catalog-item{padding: 40px 4.71%;}
+    .col4{width: 33.33%;}
+}
 
+@media only screen and (max-width: 768px){
+    .col4{width: 50%}
+}
 
-
+@media only screen and (max-width: 640px){
+    .col4{width: 100%}
 }
 
 .catalog-nav{
@@ -278,8 +294,8 @@ font-weight: 500;
 .catalog-nav .catalog-nav-main .catalog-nav-main-item{
     display: inline-block;
     margin-right: 2.8%;
-    padding-top: 18px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 13px;
     border-bottom: 2px solid transparent;
 }
 
@@ -316,6 +332,100 @@ font-weight: 500;
     margin: 0 -5.8% 0 -5.8%;
 }
 
+.catalog-header .colarea .left{
+    width: 37%;
+}
+
+.catalog-header .colarea .mid{
+    width: 30%;
+}
+
+.catalog-header .colarea .right{
+    width: 33%;
+    padding-bottom: 42px;
+    padding-top: 104px;
+
+}
+
+.select-box{
+    width: 145px;
+}
+
+.selectricWrapper {
+    position: relative;
+    margin: 0px;
+    width: 100%;
+    text-align: left;
+}
+
+.selectric {
+    border: none;
+    background-color: #fff;
+    position: relative;
+    top: 5px;
+    padding: 0 0 0 5px;
+    border-radius: 0px;
+}
+
+.selectricOpen .selectric {
+    border: none;
+    background-color: #fff;
+}
+
+.selectricItems .selectricScroll {
+    background-color: #fff;
+}
+
+.selectricItems {
+    background-color: #f3f3f3;
+    border: none;
+    z-index: -1;
+    box-shadow: 0 0 10px -6px;
+    outline: none;
+}
+
+.selectricItems li {
+    border: none;
+    color: #2e2e30;
+}
+
+.selectricItems li.selected {
+    background: #f3f3f3;
+    color: #2e2e30;
+}
+
+.selectricItems li:hover {
+    background-color: #f3f3f3;
+    color: #2e2e30;
+}
+
+
+.selectric .label {
+    display: inline-block;
+    padding: 0px;
+    margin: 0 10px 0 0;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3c3c3e;
+    min-height: 16px;
+}
+
+.selectric .button {
+    display: inline-block;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    top: -12px;
+    color: #dddddd;
+}
+
+
+.product-count{
+    padding-left: 0.9%;
+    font-size: 14px;
+    color: #808084;
+}
+
 .a-category{
     color: #2e2e30;
     font-weight: 500;
@@ -327,12 +437,13 @@ font-weight: 500;
 }
 
 .category-name, .pager , .sort{
-    padding-top: 95px;
-    padding-bottom: 47px;
+    padding-top: 90px;
+    padding-bottom: 40px;
 }
 
 .pager, .sort{
-    padding-top: 111px;
+    padding-top: 108px;
+    padding-bottom: 48px;
     font-size: 12px;
 }
 
@@ -358,6 +469,7 @@ font-weight: 500;
     padding: 0;
     margin: 0;
 }
+
 
 .pager-menu-item{
     display: inline-block;
@@ -389,6 +501,19 @@ font-weight: 500;
 .catalog-content .col4{
     padding-top: 25px;
     border-top: 1px solid #dadada;
+}
+
+.catalog-content .action{
+    padding: 0 0 42px 0;
+}
+
+.action-img{
+    background-position: top;
+    padding: 0 0 38% 0;
+}
+
+.catalog-content .spot{
+    padding: 10px 0 32px 0;
 }
 
 .catalog-content .m-catalog-item:hover{
@@ -455,6 +580,10 @@ font-weight: 500;
     text-transform: none;
 }
 
+.action-desc{
+    padding: 0 4.71%;
+}
+
 .catalog-footer{
     height: 380px;
     background-image: url("/img/catalog_footer.jpg");
@@ -479,4 +608,19 @@ font-weight: 500;
 
 .buynow{
     font-size: 11px;
+}
+
+.sort-order-text{
+    color: #000;
+}
+
+.back-on-top {
+    position: fixed;
+    bottom: 2em;
+    right: 1em;
+    display: none;
+}
+
+.back-on-top:hover {
+    opacity: 0.6;
 }

@@ -10,8 +10,6 @@ $arCatalogMenu = array(
     'Аксессуары',
     'Системы парковки',
     'Фотоаппараты',
-    'Детекторы',
-    'Категория'
 );
 
 $arProductImg = array(
@@ -20,6 +18,31 @@ $arProductImg = array(
     'img/product3.png',
     'img/product4.png'
     );
+
+$arActionImg = array(
+    'img/car.jpg',
+    'img/auto-reg.jpg',
+    'img/car-panel.jpg',
+    'img/spot.png',
+);
+
+
+$arActionInfo = array(
+
+    array(
+        'name' => 'Летний сезон',
+        'desc' => 'Акция -20% за два видеорегистратора.</br>Только летом.'
+    ),array(
+        'name' => 'Советы бывалых',
+        'desc' => 'Акция -20% за два видеорегистратора.</br>Только летом.'
+    ),array(
+        'name' => 'Аксессуары',
+        'desc' => 'Акция -20% за два видеорегистратора.</br>Только летом.'
+    ),array(
+        'name' => 'Летний сезон',
+        'desc' => 'Акция -20% за два видеорегистратора.</br>Только летом.'
+    )
+);
 
 $arProductInfo = array(
     array(
