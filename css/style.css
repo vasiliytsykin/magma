@@ -1,3 +1,5 @@
+@import "about.css";
+
 body, input, textarea, select{
 
 
@@ -240,6 +242,7 @@ font-weight: 500;
 .footer-over{margin:0 auto; max-width: 933px;}
 .f-contacts{font-size: 14px;}
 .f-contacts a{color:#e2e2e2;}
+
 @media only screen and (max-width: 1400px){
 
     .main-catalog-over{margin:25px 21.06%;}
@@ -276,6 +279,8 @@ font-weight: 500;
 
 @media only screen and (max-width: 640px){
     .col4{width: 100%}
+    .catalog-header .left, .catalog-header .mid{display: none;}
+    .catalog-header .colarea .right{width: 100% !important;}
 }
 
 .catalog-nav{
@@ -512,8 +517,8 @@ font-weight: 500;
     padding: 0 0 38% 0;
 }
 
-.catalog-content .spot{
-    padding: 10px 0 32px 0;
+.spot{
+    background-position: center 10px;
 }
 
 .catalog-content .m-catalog-item:hover{
