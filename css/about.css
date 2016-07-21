@@ -8,16 +8,17 @@
 
 h1.about{
     font-size: 34px;
-    font-weight: 400;
+    font-weight: 500;
     margin: 65px 0 25px 0;
 }
 
 .about-top{
     height: 410px;
     background: url("/img/about-top.jpg") no-repeat center;
+    padding: 0;
 }
 
-.row .col-lg-6.col-md-10.about-text, .row.row-video .col-lg-10{
+.row .col-lg-6.col-md-10.about-text{
     margin-left: auto;
     margin-right: auto;
     padding: 0;
@@ -25,18 +26,28 @@ h1.about{
     margin-bottom: 70px;
 }
 
+@media only screen and (min-width: 1200px){
+    .row .col-lg-6.about-text{ width: 55%; }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .col-md-10 { width: 82.333333%; }
+}
+
 .row.row-about-text, .row.row-video{
+    margin: 0;
     border-bottom: 1px solid #dadada;
 }
 
 h2.about{
     font-size: 40px;
-    font-weight: 400;
-    margin: 80px 0 40px 0;
+    font-weight: 500;
+    margin: 80px 0 0 0;
 }
 
 p.about{
-    margin: 0 0 35px 0;
+    margin: 40px 0 35px 0;
 }
 
 p.about.ione{
@@ -45,10 +56,81 @@ p.about.ione{
 }
 
 .row.row-video{
-    padding: 30px 0;
+    padding: 38px 0;
+}
+
+.video-container{
+    padding: 0 0 0 13.75%;
 }
 
 .row-video .video{
-    height: 332px;
-    background: url("/img/video.jpg") no-repeat center;
+    padding: 62.135% 0 0 0;
+    margin: 0;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-image: url('/img/video.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.row-video p{
+    font-size: 36px;
+    font-weight: 500;
+    color: #e21145;
+}
+
+@media only screen and (max-width: 1518px){
+    .row-video p{ font-size: 34px; }
+}
+
+@media only screen and (max-width: 1436px){
+    .row-video p{ font-size: 32px; }
+}
+
+@media only screen and (max-width: 1354px){
+    .row-video p{ font-size: 30px; }
+}
+
+@media only screen and (max-width: 1272px){
+    .row-video p{ font-size: 28px; }
+}
+
+@media only screen and (max-width: 1190px){
+    .row-video p{ font-size: 26px; }
+}
+
+@media only screen and (max-width: 1108px){
+    .row-video p{ font-size: 24px; }
+}
+
+@media only screen and (max-width: 1028px){
+    .row-video p{ font-size: 22px; }
+    h2.about{display: none;}
+    p.about{ margin: 60px 0 35px 0; }
+}
+
+@media only screen and (max-width: 920px){
+    .row-video p{ font-size: 20px; }
+}
+
+@media only screen and (max-width: 828px){
+    .row-video p{ font-size: 18px; }
+}
+
+@media only screen and (max-width: 767px){
+    .row-video p{ font-size: 32px; }
+    .video-container{ padding: 0; }
+    .container-fluid{ padding: 0 7.812%; }
+    .row.row-video .col-xs-12.video-text { padding: 8% 12% 0 12%; }
+    .row .col-lg-6.col-md-10.about-text{ font-size: 24px}
+    .row.row-about-text{ padding: 0;}
+}
+.row .col-lg-6.video-text{
+    padding: 5% 16% 0 4%;
+}
+
+.row.row-about-text.row-about-text-bottom{
+    border: none;
 }
