@@ -4,20 +4,33 @@ $(document).ready(function () {
 
 });
 
-jQuery(document).ready(function() {
-    var offset = 500;
-    var duration = 500;
-    jQuery(window).scroll(function() {
-        if (jQuery(this).scrollTop() > offset) {
-            jQuery('.back-on-top').fadeIn(duration);
-        } else {
-            jQuery('.back-on-top').fadeOut(duration);
-        }
-    });
+$(document).ready(function() {
 
-    jQuery('.back-on-top').click(function(event) {
+    function onTop(event, duration) {
         event.preventDefault();
-        jQuery('html, body').animate({scrollTop: 0}, duration);
+        $('html, body').animate({scrollTop: 0}, duration);
         return false;
-    })
+    }
+
+    function onTopDynamic(offset, duration, selector) {
+
+        if(offset != null && duration != null)
+        {
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > offset) {
+                    $(selector).fadeIn(duration);
+                } else {
+                    $(selector).fadeOut(duration);
+                }
+            });
+        }
+
+        $(selector).on('click', function(event) {
+            onTop(event, duration);
+        })
+    }
+
+    onTopDynamic(500, 500, '.back-on-top');
+    onTopDynamic(null, 500, '.back-on-top-static');
+
 });

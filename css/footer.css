@@ -1,0 +1,28 @@
+.facebook-icon{
+    width: 8px;
+    height: 16px;
+    background-image: url("/img/facebook.svg");
+}
+
+.twitter-icon{
+    width: 16px;
+    height: 13px;
+    background-image: url("/img/twitter.svg");
+}
+
+
+
+
+.facebook-icon, .twitter-icon{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+@media only screen and (max-width: 767px){
+
+    .footer .no-mobile, .footer .col-xs-12 h4{ display: none; }
+    .footer{ padding: 70px 0 !important;}
+    .footer .col-xs-12 .f-contacts{ text-align: center; font-size: 24px; color: #fff}
+
+}

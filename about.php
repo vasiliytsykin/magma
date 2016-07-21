@@ -4,6 +4,7 @@ include __DIR__.'/tmp/header.php'
 ?>
 
 <div class="container-fluid">
+
     <h1 class="about">О компании</h1>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 about-top"></div>
@@ -29,11 +30,15 @@ include __DIR__.'/tmp/header.php'
                 <div class="video"></div>
         </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 video-text">
-                <p>
-                    Сейчас Magma — один из лидеров на рынке высокотехнологичной продукции в России.
-                </p>
+                <div class="tc">
+                    <div class="td">
+                            <p>
+                                Сейчас Magma — один из лидеров на рынке высокотехнологичной продукции в России.
+                            </p>
+                    </div>
+                </div>
             </div>
-        </div>
+    </div>
     <div class="row row-about-text row-about-text-bottom">
         <div class="col-lg-6 col-md-10 col-sm-10 col-xs-12 about-text">
             <p class="about">
@@ -47,8 +52,23 @@ include __DIR__.'/tmp/header.php'
                 Рекомендованная розничная цена Magma iOne-1000 составляет 9790 рублей,
                 что тоже, кстати, можно назвать фирменной «фишкой» устройства.
             </p>
+
+            <div class="about-contact-info">
+                <p class="about-contact-info-top">Мы всегда на связи!</br>Звоните, пишите нам!</p>
+                <p class="about-contact-info-bottom">8 800 677 56 56</br>magma@info.ru</p>
+            </div>
+
+            <div class="about-go-to-catalog">
+                <a href="#" class="small-link">Перейти в каталог</a>
+            </div>
+            
+            <div class="cb"></div>
         </div>
     </div>
+
+    <a class="back-on-top"><img src="img/back-on-top.png"></a>
+    <div class="back-on-top-static"></div>
+
 </div>
 
 
