@@ -16,6 +16,7 @@ h1.about{
     height: 410px;
     background: url("/img/about-top.jpg") no-repeat center;
     padding: 0;
+    background-size: cover;
 }
 
 .row .col-lg-6.col-md-10.about-text{
@@ -148,6 +149,10 @@ p.about.ione{
 }
 
 .back-on-top-static:hover{ opacity: 0.7; }
+
+@media only screen and (max-width: 1600px){
+    .about-top{ background-size: auto; }
+}
 
 @media only screen and (max-width: 1518px){
     .row-video p{ font-size: 34px; }
