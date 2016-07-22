@@ -6,8 +6,11 @@
     margin: 0;
 }
 
-.icon-bar{
+.navbar-toggle .icon-bar{
+    width: 28px;
+    height: 4px;
     background-color: #fff;
+    border-radius: 2px;
 }
 
 .main-menu .container-fluid{
@@ -73,4 +76,9 @@
     #main-nav{clear: both; margin-top: 75px; text-align: left}
     #main-nav .navbar-nav{ float: none; }
     #main-nav a{ font-size: 18px; }
+    .main-menu .container-fluid{ padding: 22px 4.125%; }
+}
+
+@media only screen and (max-width: 767px){
+    .main-menu .container-fluid{ padding: 22px 7.812%; }
 }

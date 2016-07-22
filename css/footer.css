@@ -1,7 +1,13 @@
+.social-icons{
+    font-size: 0;
+}
+
+
 .facebook-icon{
     width: 8px;
     height: 16px;
     background-image: url("/img/facebook.svg");
+    margin-right: 25px;
 }
 
 .twitter-icon{
@@ -11,12 +17,24 @@
 }
 
 
-
-
 .facebook-icon, .twitter-icon{
     display: inline-block;
     margin-top: 20px;
-    margin-right: 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.copyright{
+    height: 40px;
+    background-color: #252527;
+    color: #7b7b7b;
+    font-size: 10px;
+    text-align: center;
+}
+
+.copyright p{
+    margin: 0;
+    opacity: 0.5;
 }
 
 @media only screen and (max-width: 767px){
@@ -24,5 +42,9 @@
     .footer .no-mobile, .footer .col-xs-12 h4{ display: none; }
     .footer{ padding: 70px 0 !important;}
     .footer .col-xs-12 .f-contacts{ text-align: center; font-size: 24px; color: #fff}
-
+    .facebook-icon{ width: 22px; height: 44px; }
+    .twitter-icon{ width: 47px; height: 37px; }
+    .facebook-icon{ margin-right: 60px; }
+    .footer-email{ font-weight: 300; }
+    .social-icons{margin-top: 15px; }
 }
