@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23.094" height="32.156" viewBox="0 0 23.094 32.156">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="404" y="35.844" width="23.094" height="32.156" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#e21145"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="sravnenie_copy_2" data-name="sravnenie copy 2" class="cls-1" d="M406.2,68.006h-0.021A2.071,2.071,0,0,1,404,66.052l0.086-11.227a2.112,2.112,0,0,1,2.217-1.916,2.069,2.069,0,0,1,2.174,1.953L408.4,66.088A2.081,2.081,0,0,1,406.2,68.006Zm9.388,0a2.077,2.077,0,0,1-2.2-1.935v-28.3a2.214,2.214,0,0,1,4.392,0V66.07A2.077,2.077,0,0,1,415.587,68.006Zm9.3,0a2.076,2.076,0,0,1-2.195-1.935V45.2a2.213,2.213,0,0,1,4.391,0V66.07A2.077,2.077,0,0,1,424.889,68.006Z" transform="translate(-404 -35.844)"/>
+</svg>

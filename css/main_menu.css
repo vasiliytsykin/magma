@@ -6,6 +6,12 @@
     margin: 0;
 }
 
+
+.navbar-toggle{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .navbar-toggle .icon-bar{
     width: 28px;
     height: 4px;
@@ -28,7 +34,13 @@
 
 .logo{
     float: left;
-    padding: 8px 0 7px 0;
+    width: 158px;
+    height: 35px;
+    margin: 8px 0 7px 0;
+    background-image: url("/img/logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .main-menu-phone{
@@ -54,13 +66,35 @@
 
 #main-nav-compare , #main-nav-cart{
     float: right;
-    padding: 10px 15px;
     text-decoration: none;
+    height: 20px;
+    width: 21px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 12px;
 }
 
 #main-nav-cart{
-    padding-top: 13px;
-    padding-bottom: 15px;;
+    background-image: url("/img/basket.svg");
+}
+
+#main-nav-compare{
+    background-image: url("/img/compare_icon_large.svg");
+}
+
+#compare-count{
+    margin-right: 25px;
+}
+
+.main-menu .counter{
+    float: right;
+    font-size: 12px;
+    margin-top: 9px;
+}
+
+#cart-count{
+    margin-left: 5px;
 }
 
 .navbar-header{
@@ -76,9 +110,23 @@
     #main-nav{clear: both; margin-top: 75px; text-align: left}
     #main-nav .navbar-nav{ float: none; }
     #main-nav a{ font-size: 18px; }
-    .main-menu .container-fluid{ padding: 22px 4.125%; }
+    #main-nav-compare , #main-nav-cart{
+        padding: 0;
+        height: 33px;
+        width: 34px;
+        margin-top: 2px;
+    }
+    #cart-count{  margin-right: 40px; }
+    #compare-count{ margin-right: 50px}
+    .main-menu .counter{ font-size: 20px; margin-top: -3px; }
+    .logo{
+        float: left;
+        width: 183px;
+        height: 41px;
+        margin: 5px 0 4px 0;
+    }
 }
 
 @media only screen and (max-width: 767px){
-    .main-menu .container-fluid{ padding: 22px 7.812%; }
+    .main-menu .container-fluid{ padding: 25px 7.812%; }
 }

@@ -8,11 +8,16 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="#" id="main-nav-cart"><img src="img/basket.svg"><sup>3</sup></a>
 
-            <a href="#" id="main-nav-compare"><img src="img/svg_compare-01.svg"><sup>4</sup></a>
+            
+            <a class="counter" id="cart-count">3</a>
+            <a href="#" id="main-nav-cart"></a>
 
-            <a class="logo" href="#"><img src="img/logo.svg"></a>
+            <a class="counter" id="compare-count">4</a>
+            <a href="#" id="main-nav-compare"></a>
+
+            <a class="logo" href="#"></a>
+            
         </div>
 
         <div class="collapse navbar-collapse navbar-right" id="main-nav">
