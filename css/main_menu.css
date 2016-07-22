@@ -8,15 +8,16 @@
 
 
 .navbar-toggle{
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .navbar-toggle .icon-bar{
     width: 28px;
-    height: 4px;
+    height: 3px;
     background-color: #fff;
     border-radius: 2px;
+    margin-bottom: 7px;
 }
 
 .main-menu .container-fluid{

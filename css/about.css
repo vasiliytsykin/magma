@@ -1,22 +1,5 @@
-.container-fluid{
-    padding: 0 4.125%;
-}
-
-.row{
-    padding: 0 15px;
-}
-
-h1.about{
-    font-size: 34px;
-    font-weight: 500;
-    margin: 65px 0 25px 0;
-}
-
 .about-top{
-    height: 410px;
-    background: url("/img/about-top.jpg") no-repeat center;
-    padding: 0;
-    background-size: cover;
+    background-image: url("/img/about-top.jpg");
 }
 
 .row .col-lg-6.col-md-10.about-text{
@@ -150,9 +133,6 @@ p.about.ione{
 
 .back-on-top-static:hover{ opacity: 0.7; }
 
-@media only screen and (max-width: 1600px){
-    .about-top{ background-size: auto; }
-}
 
 @media only screen and (max-width: 1518px){
     .row-video p{ font-size: 34px; }
@@ -196,7 +176,6 @@ p.about.ione{
 @media only screen and (max-width: 767px){
     .row-video p{ font-size: 32px; margin: 0 auto; width: 76%; text-align: center}
     .video-container{ padding: 0; }
-    .container-fluid{ padding: 0 7.812%; }
     .row.row-video .col-xs-12.video-text { padding: 50px 0 12px 0; }
     .row .col-lg-6.col-md-10.about-text{ font-size: 24px}
     .row.row-about-text{ padding: 0;}
