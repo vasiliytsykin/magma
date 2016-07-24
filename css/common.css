@@ -20,12 +20,11 @@ h1.page-h1{
     height: 410px;
     padding: 0;
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
 }
 
 @media only screen and (max-width: 1028px){
-    .top-banner{ height: 360px}
+    .top-banner{ height: 364px; }
 }
 
 @media only screen and (max-width: 1600px){

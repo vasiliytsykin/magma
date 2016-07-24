@@ -7,13 +7,11 @@ include __DIR__.'/tmp/header.php'
 
     <h1 class="page-h1">Новости</h1>
     <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 top-banner news-top">
-            <div class="img-on-top"></div>
-        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 top-banner news-top"></div>
     </div>
 
     <div class="row news-block">
-        <div class="container-fluid">
+        <div class="news-wrapper">
         
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-left">
                     <a href="#">
