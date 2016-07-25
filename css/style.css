@@ -3,6 +3,7 @@
 @import "footer.css";
 @import "about.css";
 @import "news.css";
+@import "catalog.css";
 
 body, input, textarea, select{
 
@@ -289,59 +290,7 @@ font-weight: 500;
     .catalog-header .colarea .right{width: 100% !important;}
 }
 
-.catalog-nav{
-    background-color: #f3f3f3;
-}
 
-.catalog-nav .catalog-nav-main{
-    position: relative;
-    list-style: none;
-    margin: 0 4.1% 0 4.1%;
-    //height: 52px;
-    padding-left: 0.3%;
-    font-size: 16px;
-}
-
-.catalog-nav .catalog-nav-main .catalog-nav-main-item{
-    display: inline-block;
-    margin-right: 2.8%;
-    padding-top: 15px;
-    padding-bottom: 13px;
-    border-bottom: 2px solid transparent;
-}
-
-.catalog-nav .catalog-nav-main .catalog-nav-main-item .a-category:hover{
-    color: #e21145;
-}
-
-.catalog-nav .catalog-nav-main .catalog-nav-main-item:hover > .catalog-nav-sub{
-    display: block;
-}
-
-.catalog-nav .catalog-nav-main .catalog-nav-main-item:hover{
-    border-bottom: 2px solid #e21145;
-}
-
-.catalog-nav-sub-item{
-    display: inline-block;
-    margin-right: 3.7%;
-}
-
-.catalog-nav .catalog-nav-sub{
-    position: absolute;
-    display: none;
-    list-style: none;
-    padding-left: 5.8%;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    font-size: 16px;
-    background-color: #e21145;
-    height: 52px;
-    left: 0;
-    right: 0;
-    top: 52px;
-    margin: 0 -5.8% 0 -5.8%;
-}
 
 .catalog-header .colarea .left{
     width: 37%;

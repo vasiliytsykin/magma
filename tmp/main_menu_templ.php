@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-
+        
             
             <a class="counter" id="cart-count">3</a>
             <a href="#" id="main-nav-cart"></a>

@@ -5,23 +5,9 @@ include __DIR__.'/tmp/catalog_data.php';
 ?>
 
 
-<nav class="catalog-nav">
-    <ul class="catalog-nav-main">
-        <? foreach ($arCatalogMenu as $menuItem) {?>
-        <li class="catalog-nav-main-item">
-            <a href="#" class="a-category"><?=$menuItem?></a>
-                <ul class="catalog-nav-sub">
-                    <li class="catalog-nav-sub-item"><a href="#" class="a-sub-category">Категория</a></li>
-                    <li class="catalog-nav-sub-item"><a href="#" class="a-sub-category">Категория</a></li>
-                    <li class="catalog-nav-sub-item"><a href="#" class="a-sub-category">Категория</a></li>
-                    <li class="catalog-nav-sub-item"><a href="#" class="a-sub-category">Категория</a></li>
-                </ul>
-        </li><?}?>
-    </ul>
-</nav>
+<?php include __DIR__.'/tmp/catalog_menu_templ.php'?>
 
-
-
+<!--
 <section class="catalog-header">
     <div class="colarea">
         <div class="category-name col3 left">
@@ -105,6 +91,8 @@ include __DIR__.'/tmp/catalog_data.php';
         </div>
     </div>
 </section>
+
+-->
 
 
 
