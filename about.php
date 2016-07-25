@@ -5,13 +5,13 @@ include __DIR__.'/tmp/header.php'
 
 <div class="container-fluid">
 
-    <h1 class="page-h1">О компании</h1>
+    <h1 class="about-h1">О компании</h1>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 top-banner about-top"></div>
     </div>
     <div class="row row-about-text">
         <div class="col-lg-6 col-md-10 col-sm-10 col-xs-12 about-text">
-            <h2 class="about">Magma — один из лидеров на рынке</h2>
+            <h2 class="about-h2">Magma — один из лидеров на рынке</h2>
             <p class="about">
                 В апреле 2011 года был подписан внешнеэкономический договор о сотрудничестве,
                 совместном производстве и эксклюзивной дистрибуции с международной компаний Oitez.

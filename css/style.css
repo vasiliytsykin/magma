@@ -419,6 +419,7 @@ font-weight: 500;
     line-height: 16px;
     color: #3c3c3e;
     min-height: 16px;
+    font-weight: 500;
 }
 
 .selectric .button {
@@ -447,12 +448,12 @@ font-weight: 500;
     font-weight: 500;
 }
 
-.category-name, .pager , .sort{
+.category-name, .sort{
     padding-top: 90px;
     padding-bottom: 40px;
 }
 
-.pager, .sort{
+.sort{
     padding-top: 108px;
     padding-bottom: 48px;
     font-size: 12px;
@@ -464,10 +465,6 @@ font-weight: 500;
 
 .category-name{
     padding-left: 4.1%;
-}
-
-.pager{
-    text-align: center;
 }
 
 .pager-bottom{
@@ -485,7 +482,7 @@ font-weight: 500;
 .pager-menu-item{
     display: inline-block;
     font-size: 12px;
-    padding-right: 0.9%;
+    padding-right: 10px;
 }
 .pager-menu-item a{
     color: #8f8f8f;

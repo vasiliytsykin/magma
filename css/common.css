@@ -10,10 +10,19 @@
     padding: 0 15px;
 }
 
-h1.page-h1{
+h1{
     font-size: 34px;
     font-weight: 500;
-    margin: 65px 0 25px 0;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 22px;
+    font-weight: 500;
 }
 
 .top-banner{
@@ -29,4 +38,10 @@ h1.page-h1{
 
 @media only screen and (max-width: 1600px){
     .top-banner{ background-size: auto; }
+}
+
+
+.simple-pager {
+    text-align: center;
+    font-size: 12px;
 }

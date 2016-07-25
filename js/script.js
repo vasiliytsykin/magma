@@ -34,3 +34,19 @@ $(document).ready(function() {
     onTopDynamic(null, 500, '.back-on-top-static');
 
 });
+
+
+$(document).ready(function() {
+
+    function setSpecialNewsHeight()
+    {
+        var h = $(".news-item").first().height() + 'px';
+        $('.news-special').css('height', h);
+    }
+
+    setSpecialNewsHeight();
+
+    $(window).resize(function () {
+        setSpecialNewsHeight();
+    })
+});

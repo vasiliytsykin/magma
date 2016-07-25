@@ -28,7 +28,7 @@ include __DIR__.'/tmp/catalog_data.php';
             <span class="category-name-text">Видеорегистраторы</span>
             <span class="product-count">200 товаров</span>
         </div>
-        <div class="pager col3 mid">
+        <div class="simple-pager col3 mid">
             <ul class="pager-menu">
                 <li class="pager-menu-item"><a href="#"><img class="arrow" src="img/arrows-02.svg"></a></li>
                 <li class="pager-menu-item"><a href="#">1</a></li>
@@ -74,7 +74,7 @@ include __DIR__.'/tmp/catalog_data.php';
 <section class="catalog-pre-footer">
         <div class="colarea">
             <div class="col3"></div>
-            <div class="pager pager-bottom col3">
+            <div class="simple-pager pager-bottom col3">
                 <ul class="pager-menu">
                     <li class="pager-menu-item"><a href="#"><img class="arrow" src="img/arrows-02.svg"></a></li>
                     <li class="pager-menu-item"><a href="#">1</a></li>
