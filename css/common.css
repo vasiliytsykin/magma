@@ -81,6 +81,46 @@ h3{
     cursor: pointer;
 }
 
+
+.row-video{
+    padding: 38px 0;
+}
+
+.video-container{
+    margin: 0 auto;
+    font-size: 0;
+    width: 53.67%;
+}
+
+.video-text{
+    display: inline-block;
+    width: 46%;
+    vertical-align: middle;
+    margin-left: 25px;
+}
+
+.video{
+    width: 50%;
+    display: inline-block;
+    padding: 29.6% 0 0 0;
+    margin: 0;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-image: url('/img/video.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    vertical-align: middle;
+}
+
+.row-video p{
+    font-size: 22px;
+    font-weight: 500;
+    color: #e21145;
+}
+
+
 @media only screen and (max-width: 1028px){
     .top-banner{ height: 364px; }
 }

@@ -41,35 +41,7 @@ p.about.ione{
     font-weight: 500;
 }
 
-.row.row-video{
-    padding: 38px 0;
-}
 
-.video-container{
-    padding: 0 0 0 13.75%;
-}
-
-.row-video .video{
-    padding: 62.135% 0 0 0;
-    margin: 0;
-    background-size: contain;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-image: url('/img/video.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.row-video p{
-    font-size: 36px;
-    font-weight: 500;
-    color: #e21145;
-}
-
-.row .col-lg-6.video-text{
-    padding: 5% 16% 0 4%;
-}
 
 .row.row-about-text.row-about-text-bottom{
     border: none;
