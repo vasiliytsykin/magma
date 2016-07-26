@@ -1,9 +1,13 @@
 
     </section>
 
+    <a class="back-on-top"><img src="img/back-on-top.png"></a>
+    <div class="back-on-top-static"></div>
+
     <footer class="footer">
 
         <div class="container-fluid">
+
             <div class="footer-over">
                 <div class="col-lg-3 col-md-3 col-sm-3 no-mobile">
                     <h4><a href="#">Продукция</a></h4>

@@ -121,19 +121,7 @@ p.about.ione{
     color: #e21145;
 }
 
-.back-on-top-static{
-    display: none;
-    content:'';
-    width: 81px;
-    height: 81px;
-    background-image: url("../img/back-on-top-large.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin: 0px auto 70px auto;
-    cursor: pointer;
-}
 
-.back-on-top-static:hover{ opacity: 0.7; }
 
 
 @media only screen and (max-width: 1518px){
@@ -204,6 +192,5 @@ p.about.ione{
     .row-about-text-bottom .about-text {
         margin-bottom: 40px !important;
     }
-    .back-on-top{ display: none !important; }
-    .back-on-top-static{ display: block;}
+
 }

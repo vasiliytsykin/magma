@@ -621,15 +621,3 @@ font-weight: 500;
 .sort-order-text{
     color: #000;
 }
-
-.back-on-top {
-    position: fixed;
-    bottom: 2em;
-    right: 1em;
-    display: none;
-    cursor: pointer;
-}
-
-.back-on-top:hover {
-    opacity: 0.7;
-}

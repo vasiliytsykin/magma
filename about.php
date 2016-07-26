@@ -66,9 +66,6 @@ include __DIR__.'/tmp/header.php'
         </div>
     </div>
 
-    <a class="back-on-top"><img src="img/back-on-top.png"></a>
-    <div class="back-on-top-static"></div>
-
 </div>
 
 

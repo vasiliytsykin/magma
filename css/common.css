@@ -2,10 +2,6 @@
     padding: 0 4.125%;
 }
 
-@media only screen and (max-width: 767px){
-    .container-fluid{ padding: 0 7.812%; }
-}
-
 .row{
     padding: 0 15px;
 }
@@ -32,6 +28,59 @@ h3{
     background-size: cover;
 }
 
+
+.simple-pager {
+    text-align: center;
+    font-size: 12px;
+}
+
+.simple-pager  .pager-menu li:last-of-type{
+    padding-right: 0;
+}
+
+.arrow-left, .arrow-right{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.5;
+}
+
+.arrow-left{
+    background-image: url("/img/arrows-02.svg");
+}
+
+.arrow-right{
+    background-image: url("/img/arrows-01.svg");
+}
+
+
+.back-on-top {
+    position: fixed;
+    bottom: 2em;
+    right: 1em;
+    display: none;
+    cursor: pointer;
+}
+
+.back-on-top:hover, .back-on-top-static:hover{
+    opacity: 0.7;
+}
+
+.back-on-top-static{
+    display: none;
+    content:'';
+    width: 81px;
+    height: 81px;
+    background-image: url("../img/back-on-top-large.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0px auto 70px auto;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 1028px){
     .top-banner{ height: 364px; }
 }
@@ -40,8 +89,15 @@ h3{
     .top-banner{ background-size: auto; }
 }
 
-
-.simple-pager {
-    text-align: center;
-    font-size: 12px;
+@media only screen and (max-width: 767px){
+    .container-fluid{ padding: 0 7.812%; }
+    .simple-pager .pager-menu-item{ font-size: 16px; padding-right: 20px; }
+    .arrow-left, .arrow-right{
+        height: 16px;
+        width: 16px;
+        margin-bottom: -2px;
+    }
+    .back-on-top{ display: none!important; }
+    .back-on-top-static{ display: block;}
 }
+

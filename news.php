@@ -9,7 +9,8 @@ include __DIR__.'/tmp/news_data.php';
 
     <h1 class="page-h1">Новости</h1>
     <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 top-banner news-top">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 news-top-wrapper">
+            <div class="top-banner news-top"></div>
             <div class="news-top-text">
                 <div class="news-date">12.05</div>
                 <h2 class="news-h2">Ночью тоже можно видеть</h2>
@@ -43,7 +44,7 @@ include __DIR__.'/tmp/news_data.php';
                     <div class="catalog-footer-text news-footer-text">
                         <span class="name">Magma WIDE S50 </span><span class="text">теперь</br>
                             доступен и в Екатериинбурге.</span></br>
-                        <a href="#" class="btn btn-grey buynow">купить сейчас за 2600 руб.</a>
+                        <a href="#" class="btn btn-grey buynow">купить сейчас</a>
                     </div>
             </div>
         </div>
@@ -62,20 +63,19 @@ include __DIR__.'/tmp/news_data.php';
     <div class="news-pager-wrapper">
         <div class="simple-pager">
             <ul class="pager-menu">
-                <li class="pager-menu-item"><a href="#"><img class="arrow" src="img/arrows-02.svg"></a></li>
+                <li class="pager-menu-item"><a href="#" class="arrow-left"></a></li>
                 <li class="pager-menu-item"><a href="#">1</a></li>
                 <li class="pager-menu-item"><a href="#">2</a></li>
                 <li class="pager-menu-item"><a href="#">3</a></li>
                 <li class="pager-menu-item">...</li>
                 <li class="pager-menu-item"><a href="#">12</a></li>
-                <li class="pager-menu-item"><a href="#"><img class="arrow" src="img/arrows-01.svg"></a></li>
+                <li class="pager-menu-item"><a href="#" class="arrow-right"></a></li>
             </ul>
         </div>
     </div>
     
 
-    <a class="back-on-top"><img src="img/back-on-top.png"></a>
-    <div class="back-on-top-static"></div>
+    
 
 </div>
 
