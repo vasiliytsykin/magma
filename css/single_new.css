@@ -1,0 +1,25 @@
+.single-new-top{
+    background-image: url("/img/news-top-banner.jpg");
+}
+
+.single-new-img-wrapper{
+    font-size: 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.single-new-img-wrapper .single-new-img:first-of-type{
+    margin-right: 40px;
+}
+
+.single-new-img{
+    display: inline-block;
+}
+
+.row-single-new-text{
+    border-bottom: none!important;
+}
+
+.single-new-text{
+    margin-bottom: 50px!important;
+}

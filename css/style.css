@@ -3,6 +3,7 @@
 @import "footer.css";
 @import "about.css";
 @import "news.css";
+@import "single_new.css";
 
 body, input, textarea, select{
 
