@@ -29,8 +29,7 @@ include __DIR__.'/tmp/header.php';
             </p>
         </div>
     </div>
-
-
+    
     <div class="row row-video">
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 video-container">
             <div class="video"></div>
