@@ -16,7 +16,7 @@
             <a class="counter" id="compare-count">4</a>
             <a href="#" id="main-nav-compare"></a>
 
-            <a class="logo" href="#"></a>
+            <a class="logo" href="/index.php"></a>
             
         </div>
 
@@ -26,7 +26,7 @@
 
             <ul class="nav navbar-nav">
                 <li><a href="#">продукция</a></li>
-                <li><a href="#">о нас</a></li>
+                <li><a href="/about.php">о нас</a></li>
                 <li><a href="#">контакты</a></li>
                 <li><a href="#">дилерам</a></li>
             </ul>

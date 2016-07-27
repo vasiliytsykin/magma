@@ -194,3 +194,30 @@ p.about.ione{
     }
 
 }
+
+@media only screen and (max-width: 375px){
+    h2 {
+        font-size: 19px;
+    }
+
+    .row .col-lg-6.col-md-10.about-text {
+        font-size: 16px;
+    }
+
+    .row-video p {
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .about-contact-info {
+        font-size: 16px;
+    }
+
+    .small-link {
+        font-size: 10px;
+    }
+
+    .small-link::after {
+        height: 12px;
+    }
+}

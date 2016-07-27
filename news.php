@@ -22,7 +22,7 @@ include __DIR__.'/tmp/news_data.php';
                     назвать фирменной «фишкой» устройства.
                 </p>
                 <div class="news-more">
-                    <a href="#" class="small-link">Узнать больше</a>
+                    <a href="single_new.php" class="small-link">Узнать больше</a>
                 </div>
             </div>
         </div>

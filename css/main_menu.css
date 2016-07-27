@@ -131,3 +131,50 @@
 @media only screen and (max-width: 767px){
     .main-menu .container-fluid{ padding: 25px 7.812%; }
 }
+
+@media only screen and (max-width: 375px){
+    .navbar.main-menu {
+        min-height: 80px;
+    }
+
+    .main-menu .container-fluid {
+        padding: 15px 7.812%;
+    }
+
+    .navbar-toggle {
+        margin-top: 5px;
+    }
+
+    .navbar-toggle .icon-bar {
+        width: 24px;
+        height: 3px;
+        margin-bottom: 5px;
+    }
+
+    #cart-count, #compare-count {
+        margin-top: 12px;
+    }
+
+    #cart-count {
+        margin-left: 2px;
+        margin-right: 10px;
+    }
+
+    #compare-count {
+        margin-right: 20px;
+    }
+
+    .main-menu .counter {
+        font-size: 12px;
+    }
+
+    #main-nav-compare, #main-nav-cart {
+        height: 20px;
+        width: 20px;
+        margin-top: 15px;
+    }
+
+    .logo {
+        width: 125px;
+    }
+}

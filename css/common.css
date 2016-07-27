@@ -81,12 +81,12 @@ h3{
     cursor: pointer;
 }
 
-@media only screen and (max-width: 1028px){
-    .top-banner{ height: 364px; }
-}
-
 @media only screen and (max-width: 1600px){
     .top-banner{ background-size: auto; }
+}
+
+@media only screen and (max-width: 1028px){
+    .top-banner{ height: 364px; }
 }
 
 @media only screen and (max-width: 767px){

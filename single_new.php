@@ -5,10 +5,23 @@ include __DIR__.'/tmp/header.php';
 ?>
 
 
+<div class="single-new-nav">
+    <div class="container-fluid">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 prev-new-wrapper">
+            <a href="#" class="small-link next-new">предыдущая</a>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 next-new-wrapper">
+            <a href="#" class="small-link next-new">следующая</a>
+        </div>
+
+
+    </div>
+</div>
+
 <div class="container-fluid">
 
     <div class="news-date">12.05</div>
-    <h1 class="about-h1">Ночью тоже можно видеть</h1>
+    <h1 class="single-new-h1">Ночью тоже можно видеть</h1>
     <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 top-banner single-new-top"></div>
     </div>
@@ -63,9 +76,13 @@ include __DIR__.'/tmp/header.php';
         </div>
     </div>
 
-    <div class="single-new-img-wrapper">
-        <img src="/img/news-top-banner-cut.jpg" class="single-new-img">
-        <img src="/img/news-top-banner-cut.jpg" class="single-new-img">
+    <div class="row row-single-new-img-wrapper">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 single-new-img-wrapper">
+            <div class="single-new-img"></div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 single-new-img-wrapper">
+            <div class="single-new-img"></div>
+        </div>
     </div>
 
 
@@ -81,7 +98,8 @@ include __DIR__.'/tmp/header.php';
         </div>
     </section>
 
-    <div class="news-pager-wrapper">
+    <div class="single-new-pager-wrapper">
+        <a href="news.php" class="small-link to-all-news">ко всем новостям</a>
         <div class="simple-pager">
             <ul class="pager-menu">
                 <li class="pager-menu-item"><a href="#" class="arrow-left"></a></li>

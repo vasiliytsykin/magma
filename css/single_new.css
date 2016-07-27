@@ -2,18 +2,30 @@
     background-image: url("/img/news-top-banner.jpg");
 }
 
-.single-new-img-wrapper{
-    font-size: 0;
-    text-align: center;
-    margin-bottom: 50px;
+.row-single-new-img-wrapper {
+    padding: 0;
+    width: 54.7%;
+    margin: 0 auto 50px auto;
 }
 
-.single-new-img-wrapper .single-new-img:first-of-type{
-    margin-right: 40px;
+.row-single-new-img-wrapper .single-new-img-wrapper:first-of-type{
+    padding-right: 20px;
+}
+
+.row-single-new-img-wrapper .single-new-img-wrapper:last-of-type{
+    padding-left: 20px;
+}
+
+.single-new-img-wrapper{
+    padding: 0;
 }
 
 .single-new-img{
-    display: inline-block;
+    padding: 66.4% 0 0 0;
+    background-image: url("/img/news-top-banner-cut.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .row-single-new-text{
@@ -22,4 +34,73 @@
 
 .single-new-text{
     margin-bottom: 50px!important;
+}
+
+.single-new-nav{
+    padding: 14px 0;
+    height: 50px;
+    background-color: #fafafa;
+    margin-bottom: 25px;
+}
+
+.prev-new-wrapper, .next-new-wrapper{
+    padding: 0;
+}
+
+.next-new-wrapper{
+    text-align: right;
+}
+
+.next-new::after{
+    display: none;
+}
+
+.single-new-h1{
+    margin-top: 20px;
+}
+
+.single-new-pager-wrapper {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.to-all-news{
+    margin-top: 2px;
+    float: left;
+    margin-right: -128px;
+}
+
+.to-all-news::after{
+    display: none;
+}
+
+.to-all-news::before {
+    display: inline-block;
+    content: '';
+    background-image: url("../img/arrows-02.svg");
+    width: 10px;
+    height: 10px;
+    margin-bottom: -2px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 767px){
+    .to-all-news{
+        display: block;
+        text-align: center;
+        margin: 0 0 40px 0;
+        float: none;
+    }
+
+    .row-single-new-img-wrapper{
+        width: inherit;
+    }
+
+    .row-single-new-img-wrapper .single-new-img-wrapper:first-of-type{
+        padding: 0;
+        margin-bottom: 40px;
+    }
+    .row-single-new-img-wrapper .single-new-img-wrapper:last-of-type{
+        padding: 0;
+    }
 }
