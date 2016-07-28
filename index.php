@@ -12,34 +12,41 @@ include __DIR__.'/tmp/init.php';
 
 include __DIR__.'/tmp/header.php';?>
 
-
-    <div class="main-slider">
+<div class="main-slider">
 
 
         <div class="main-slider-over">
 
             <div class="main-slide" style="background-image:url(img/element.svg);">
-                <div class="tc"><div class="td">
-                        <div class="mm">
-                            <div class="main-slide-text">
-                                <div class="t-desc">ВИДЕОРЕГИСТРАТОР  iReg-7570SHD</div>
-                                <h2><b>Ваше внимание</b> посвящено<br/>
-                                    только дороге.</h2>
 
-                                <div class="b-btn"><a href="#" class="btn btn-white">купить сейчас</a></div>
-                            </div>
-                        </div></div>
+                <div class="container-fluid">
+
+                <div class="owl-carousel">
+                <? for ($i = 0; $i< 3; $i++) {?>
+                    <div class="carousel-item-wrapper">
+                        <div class="main-slide-text">
+                            <div class="t-desc">ВИДЕОРЕГИСТРАТОР  iReg-7570SHD</div>
+                            <h2><b>Ваше внимание</b> посвящено<br/>
+                                только дороге.</h2>
+                            <div class="b-btn"><a href="#" class="btn btn-white">купить сейчас</a></div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 carousel-img-wrapper">
+                            <div class="carousel-item" style="background-image: url('/img/carousel-img-1.png')"></div>
+                        </div>
+                    </div>
+                <?}?>
+                </div>
                 </div>
             </div>
+            
         </div>
 
-        <div class="owl-carousel">
-            <div class="item"><img src="img/carousel-img-1.png"></div>
-            <div class="item"><img src="img/carousel-img-1.png"></div>
-            <div class="item"><img src="img/carousel-img-1.png"></div>
-        </div>
 
-    </div>
+
+</div>
+
+
 
 
 <? $arResult = array(
