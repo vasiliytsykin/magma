@@ -81,8 +81,62 @@ h3{
     cursor: pointer;
 }
 
+.row-video{
+    padding: 38px 0;
+}
+
+.video-container {
+    margin: 0 auto;
+    font-size: 0;
+    float: none;
+}
+
+.video-wrapper {
+    padding: 0 20px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.video-text {
+    vertical-align: middle;
+    padding-left: 20px;
+    display: inline-block;
+    float: none;
+}
+
+.video{
+    padding: 62.6% 0 0 0;
+    margin: 0;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-image: url('/img/video.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.video-container p {
+    font-size: 22px;
+    font-weight: 500;
+    color: #e21145;
+    margin: 0;
+}
+
 @media only screen and (max-width: 1600px){
     .top-banner{ background-size: auto; }
+}
+
+@media only screen and (max-width: 1214px){
+    .row-video p{ font-size: 21px; }
+}
+
+@media only screen and (min-width: 1200px){
+    .video-container{
+        width: 55%!important;
+        padding: 0!important;
+    }
 }
 
 @media only screen and (max-width: 1028px){
@@ -99,5 +153,14 @@ h3{
     }
     .back-on-top{ display: none!important; }
     .back-on-top-static{ display: block;}
+    .video-container, .video-wrapper{ padding: 0; }
+    .row-video p{ font-size: 32px; margin: 0 auto; width: 90%; text-align: center}
+    .video-text { padding: 50px 0 12px 0; }
 }
+
+
+@media only screen and (max-width: 375px){
+    .row-video p{ font-size: 19px!important; }
+}
+
 

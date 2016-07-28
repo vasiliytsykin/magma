@@ -25,20 +25,13 @@ include __DIR__.'/tmp/header.php'
             </p>
         </div>
     </div>
-    <div class="row row-video">
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 video-container">
-                <div class="video"></div>
-        </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 video-text">
-                <div class="tc">
-                    <div class="td">
-                            <p>
-                                Сейчас Magma — один из лидеров на рынке высокотехнологичной продукции в России.
-                            </p>
-                    </div>
-                </div>
-            </div>
-    </div>
+
+    <?
+        $videoText = 'Сейчас Magma — один из лидеров на рынке высокотехнологичной продукции в России.';
+        include __DIR__.'/tmp/video_block_templ.php'
+
+    ?>
+    
     <div class="row row-about-text row-about-text-bottom">
         <div class="col-lg-6 col-md-10 col-sm-10 col-xs-12 about-text">
             <p class="about">

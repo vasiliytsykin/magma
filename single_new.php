@@ -1,6 +1,7 @@
 <?php
 include __DIR__.'/tmp/init.php';
 include __DIR__.'/tmp/header.php';
+include __DIR__.'/tmp/single_new_data.php';
 
 ?>
 
@@ -42,21 +43,8 @@ include __DIR__.'/tmp/header.php';
             </p>
         </div>
     </div>
-    
-    <div class="row row-video">
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 video-container">
-            <div class="video"></div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 video-text">
-            <div class="tc">
-                <div class="td">
-                    <p>
-                        Magma iOne-1000 расширяет функционал и делает устройство максимально удобным для пользователя.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+
+    <? include __DIR__.'/tmp/video_block_templ.php'?>
 
     <div class="row row-about-text row-single-new-text">
         <div class="col-lg-6 col-md-10 col-sm-10 col-xs-12 about-text single-new-text">
