@@ -65,9 +65,8 @@
 }
 
 .to-all-news{
-    margin-top: 2px;
-    float: left;
-    margin-right: -128px;
+    display: block;
+    margin: 35px 0 40px 0;
 }
 
 .to-all-news::after{
@@ -86,10 +85,8 @@
 
 @media screen and (max-width: 767px){
     .to-all-news{
-        display: block;
         text-align: center;
-        margin: 0 0 40px 0;
-        float: none;
+        margin: 50px 0 40px 0;
     }
 
     .row-single-new-img-wrapper{

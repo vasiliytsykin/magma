@@ -85,21 +85,8 @@ include __DIR__.'/tmp/single_new_data.php';
             </div>
         </div>
     </section>
-
-    <div class="single-new-pager-wrapper">
-        <a href="news.php" class="small-link to-all-news">ко всем новостям</a>
-        <div class="simple-pager">
-            <ul class="pager-menu">
-                <li class="pager-menu-item"><a href="#" class="arrow-left"></a></li>
-                <li class="pager-menu-item"><a href="#">1</a></li>
-                <li class="pager-menu-item"><a href="#">2</a></li>
-                <li class="pager-menu-item"><a href="#">3</a></li>
-                <li class="pager-menu-item">...</li>
-                <li class="pager-menu-item"><a href="#">12</a></li>
-                <li class="pager-menu-item"><a href="#" class="arrow-right"></a></li>
-            </ul>
-        </div>
-    </div>
+    
+    <a href="news.php" class="small-link to-all-news">ко всем новостям</a>
 
 </div>
 

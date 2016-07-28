@@ -89,6 +89,7 @@ h3{
     margin: 0 auto;
     font-size: 0;
     float: none;
+    padding: 0;
 }
 
 .video-wrapper {
@@ -143,6 +144,10 @@ h3{
     .top-banner{ height: 364px; }
 }
 
+@media only screen and (max-width: 900px){
+    .row-video p{ font-size: 20px; }
+}
+
 @media only screen and (max-width: 767px){
     .container-fluid{ padding: 0 7.812%; }
     .simple-pager .pager-menu-item{ font-size: 16px; padding-right: 20px; }
@@ -160,7 +165,7 @@ h3{
 
 
 @media only screen and (max-width: 375px){
-    .row-video p{ font-size: 19px!important; }
+    .row-video p{ width: 84%; font-size: 16px; }
 }
 
 
