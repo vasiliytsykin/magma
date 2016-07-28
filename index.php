@@ -32,8 +32,14 @@ include __DIR__.'/tmp/header.php';?>
                 </div>
             </div>
         </div>
-    </div>
 
+        <div class="owl-carousel">
+            <div class="item"><img src="img/carousel-img-1.png"></div>
+            <div class="item"><img src="img/carousel-img-1.png"></div>
+            <div class="item"><img src="img/carousel-img-1.png"></div>
+        </div>
+
+    </div>
 
 
 <? $arResult = array(

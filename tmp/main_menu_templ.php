@@ -25,10 +25,10 @@
             <span class="main-menu-phone">+7 876 556 454</span>
 
             <ul class="nav navbar-nav">
-                <li><a href="#">продукция</a></li>
+                <li><a href="/products.php">продукция</a></li>
                 <li><a href="/about.php">о нас</a></li>
-                <li><a href="#">контакты</a></li>
-                <li><a href="#">дилерам</a></li>
+                <li><a href="/contacts.php">контакты</a></li>
+                <li><a href="/dilers.php">дилерам</a></li>
             </ul>
         </div>
     </div>

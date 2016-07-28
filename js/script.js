@@ -6,6 +6,14 @@ $(document).ready(function () {
 
 $(document).ready(function() {
 
+        $('.owl-carousel').owlCarousel({
+        items: 1,
+        loop:true,
+    })
+    });
+
+$(document).ready(function() {
+
     function onTop(event, duration) {
         event.preventDefault();
         $('html, body').animate({scrollTop: 0}, duration);
