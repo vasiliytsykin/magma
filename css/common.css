@@ -2,9 +2,9 @@
     padding: 0 4.125%;
 }
 
-.row{
-    padding: 0 15px;
-}
+/*.row{*/
+    /*padding: 0 15px;*/
+/*}*/
 
 h1{
     font-size: 34px;
@@ -69,16 +69,23 @@ h3{
     opacity: 0.7;
 }
 
-.back-on-top-static{
-    display: none;
-    content:'';
-    width: 81px;
-    height: 81px;
-    background-image: url("../img/arrow_top-01.svg");
+.back-on-top-static, .back-on-top{
+    background-image: url("../img/back-on-top-large.svg");
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0px auto 70px auto;
     cursor: pointer;
+}
+
+.back-on-top-static{
+    display: none;
+    width: 81px;
+    height: 81px;
+}
+
+.back-on-top{
+    width: 33px;
+    height: 33px;
 }
 
 .row-video{
@@ -113,7 +120,6 @@ h3{
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
-    background-image: url('/img/video.jpg');
     background-repeat: no-repeat;
     background-position: center;
 }

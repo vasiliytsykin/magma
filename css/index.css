@@ -57,7 +57,7 @@
     background-size: contain;
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 667px){
     .main-slider .main-slider-over .main-slide h2{
         font-size:30px;
     }

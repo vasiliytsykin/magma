@@ -1,0 +1,126 @@
+.main-description-text{
+    padding-left: 60px;
+    padding-bottom: 40px;
+}
+
+.tech-specs, .extra-offer{
+    border-top: 1px solid #f2f2f2;
+}
+
+.good-card-price{
+    font-size: 24px!important;
+}
+
+.cart-white, .compare-gray{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10px;
+    margin-bottom: -2px;
+}
+
+.good-card-buttons{
+    margin: 25px 0 60px 0;
+    font-size: 0;
+}
+
+.good-card-buttons .btn:first-of-type{
+    margin-right: 10px;
+}
+
+.cart-white{
+    height: 16px;
+    width: 16px;
+    background-image: url("/img/cart-icon-white.svg");
+}
+
+.compare-gray{
+    height: 12px;
+    width: 10px;
+    background-image: url("/img/compare-icon-gray.svg");
+}
+
+.property-wrapper{
+    background-color: #fff;
+    position: relative;
+    font-size: 0;
+}
+
+.property-name-inner, .property-value-inner{
+    position: relative;
+    font-size: 16px;
+}
+
+.property-name-inner{
+    padding-right: 10px;
+}
+
+.property-value-inner{
+    padding-left: 10px;
+}
+
+.property-name, .property-value{
+    font-size: 14px;
+    display: inline-block;
+    width: 50%;
+    background-color: inherit;
+}
+
+.main-description-text .good-properties .property-wrapper{
+    width: 72.3%;
+}
+
+.property-name-inner, .property-value-inner {
+    z-index: 2;
+    background-color: inherit;
+}
+
+.property-name::after{
+    width: 50%;
+    position: absolute;
+    right: 5px;
+    left: 0;
+    top: 10px;
+    content: '';
+    height: 1px;
+    background-color: #f2f2f2;
+}
+
+.extra-offer h4{
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #2e2e30;
+    font-weight: 600;
+    font-size: 11px;
+    text-align: center;
+}
+
+.tech-specs .video-container{
+    width: 71%!important;
+    padding-bottom: 85px!important;
+    padding-top: 50px!important;
+}
+
+.tech-specs .video-wrapper{
+    padding: 0;
+    vertical-align: top;
+}
+
+.tech-specs-text{
+    display: inline-block;
+    float: none;
+    padding-left: 60px;
+    padding-right: 0;
+
+}
+
+.good-properties h3, .tech-specs-text h3{
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+.tech-specs-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}

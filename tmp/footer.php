@@ -1,7 +1,7 @@
 
     </section>
 
-    <a class="back-on-top"><img src="img/back-on-top.png"></a>
+    <a class="back-on-top"></a>
     <div class="back-on-top-static"></div>
 
     <footer class="footer">

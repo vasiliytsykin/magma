@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="12" viewBox="0 0 10 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        opacity: 0.3;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1149" y="374" width="10" height="12" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#2e2e30"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="sravnenie_copy_2" data-name="sravnenie copy 2" class="cls-1" d="M1149.95,386h-0.01a0.888,0.888,0,0,1-.94-0.812l0.04-3.31a0.9,0.9,0,0,1,.96-0.8,0.88,0.88,0,0,1,.94.811l-0.04,3.309A0.885,0.885,0,0,1,1149.95,386Zm4.07,0a0.883,0.883,0,0,1-.95-0.8V374.8a0.963,0.963,0,0,1,1.9,0v10.4A0.889,0.889,0,0,1,1154.02,386Zm4.02,0a0.889,0.889,0,0,1-.95-0.8v-7.313a0.963,0.963,0,0,1,1.9,0V385.2A0.883,0.883,0,0,1,1158.04,386Z" transform="translate(-1149 -374)"/>
+</svg>
