@@ -31,7 +31,7 @@ include __DIR__.'/tmp/header.php';?>
                             <div class="b-btn"><a href="#" class="btn btn-white">купить сейчас</a></div>
                         </div>
 
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 carousel-img-wrapper">
+                        <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12 carousel-img-wrapper">
                             <div class="carousel-item" style="background-image: url('/img/carousel-img-1.png')"></div>
                         </div>
                     </div>
@@ -62,6 +62,8 @@ include __DIR__.'/tmp/header.php';?>
         ),
     )
 );?>
+
+
     <div class="colarea main-news-list">
         <? foreach($arResult['ITEMS'] as $arItem){?><div class="new-item">
             <a href="<?=$arItem['DETAIL_PAGE_URL'];?>">
@@ -76,7 +78,7 @@ include __DIR__.'/tmp/header.php';?>
             </a>
         </div><?}?>
     </div>
-    <div class="t-center"><a href="#" class="btn not-bg c-black">Перейти ко все новостям</a></div>
+    <div class="t-center"><a href="news.php" class="btn not-bg c-black">Перейти ко всем новостям</a></div>
 
 <? $arResult = array(
     'ITEMS'=>array(
@@ -88,6 +90,8 @@ include __DIR__.'/tmp/header.php';?>
         array('NAME'=>'Радар-детекторы','PREVIEW_PICTURE'=>'/img/product2.png','PREVIEW_TEXT'=>'от 1000 руб.' ),
     )
 );?>
+
+
 <div class="main-catalog-over">
     <div class="colarea">
         <? foreach($arResult['ITEMS'] as $arItem){?><div class="m-catalog-item col3">

@@ -81,6 +81,14 @@ h2 b{
     background-color:#e31247;
     border-radius: 4em;
 }
+
+.btn:active, .btn.active {
+    background-image: none;
+    outline: none;
+     -webkit-box-shadow: none;
+     box-shadow: none;
+}
+
 .btn-white{background-color: rgba(255,255,255,0.2);}
 .btn-white:hover{background-color: rgba(255,255,255,0.4);}
 .not-bg{background-color: transparent;}
