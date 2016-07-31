@@ -1,6 +1,12 @@
+.main-description{
+    position: relative;
+}
+
 .main-description-text{
     padding-left: 60px;
     padding-bottom: 40px;
+    position: static;
+    margin-left: 50%;
 }
 
 .main-description-text h1{
@@ -110,11 +116,14 @@
     width: 71%!important;
     padding-bottom: 85px!important;
     padding-top: 50px!important;
+    position: relative;
 }
 
 .tech-specs .video-wrapper{
     padding: 0;
     vertical-align: top;
+    position: absolute;
+    left: 0;
 }
 
 .tech-specs-text{
@@ -122,6 +131,7 @@
     float: none;
     padding-left: 60px;
     padding-right: 0;
+    margin-left: 50%;
 
 }
 
@@ -133,11 +143,15 @@
     font-size: 16px;
     font-weight: 400;
     color: #000000;
+    margin-bottom: 35px;
 }
 
 .photo-gallery{
     margin-top: 85px;
     padding: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .photo-gallery-content{
@@ -200,6 +214,57 @@
         width: 100% !important;
     }
 
+}
+
+
+@media only screen and (max-width: 736px){
+    .main-description-text{ margin-left: 0; }
+    .photo-gallery{ position: static; float: none; }
+    .photo-gallery .large-image{ float: none; }
+    .photo-gallery .thumbs{ display: none;}
+    .main-description-text{
+        padding-left: 0;
+        text-align: center;
+    }
+    .main-description-text h1 { font-size: 25px; }
+    .main-description-text .btn.btn-gray {
+        display: none;
+    }
+    .main-description-text, .tech-specs-text { padding-left: 0; }
+    .good-properties{ text-align: left; }
+    .secondary-text { font-size: 13px; }
+    .good-properties h3, .tech-specs-text h3 { font-size: 18px; }
+    #good-card-carousel .owl-controls .owl-dot { border: 1px solid #000000; }
+    #good-card-carousel .owl-controls{
+        position: static;
+         -webkit-transform: translate(0, 0);
+        -moz-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        -o-transform: translate(0, 0);
+         transform: translate(0, 0);
+        margin-top: 50px;
+    }
+    #good-card-carousel .owl-controls .owl-dot:hover {
+        background-color: #000000; }
+    #good-card-carousel .owl-controls .owl-dot.active {
+        background-color: #000000; }
+    #good-card-carousel .owl-controls .owl-dot:last-of-type {
+       margin-right: 0; }
+    .good-card-buttons .btn:first-of-type { margin-right: 0; }
+    .tech-specs{ border-top: none; }
+    .tech-specs .video-container{ padding-bottom: 50px!important; }
+    .tech-specs .video-wrapper{ position: static; margin-top: 80px; }
+    .tech-specs-text{ margin-left: 0; }
+    .tech-specs-text p { margin-bottom: 80px; }
+    .tech-specs, .extra-offer { border-top: none; }
+    .extra-offer h4 { margin-top: 0; }
+
+}
+
+@media only screen and (max-width: 320px){
+    .main-description-text h1 { font-size: 22px; }
+    .secondary-text{ font-size: 11px; }
+    .good-properties h3, .tech-specs-text h3 { font-size: 17px; }
 }
 
 

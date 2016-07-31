@@ -128,11 +128,11 @@
     }
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 768px){
     .main-menu .container-fluid{ padding: 25px 7.812%; }
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 435px){
     .navbar.main-menu {
         min-height: 80px;
     }
