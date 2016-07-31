@@ -15,7 +15,7 @@ include __DIR__.'/tmp/header.php';?>
 
                 <div class="container-fluid">
 
-                <div class="owl-carousel">
+                <div id="index-carousel" class="owl-carousel">
                 <? for ($i = 0; $i< 3; $i++) {?>
                     <div class="carousel-item-wrapper">
                         <div class="main-slide-text">
@@ -26,7 +26,7 @@ include __DIR__.'/tmp/header.php';?>
                         </div>
 
                         <div class="col-lg-3 col-md-4 col-sm-5 col-xs-12 carousel-img-wrapper">
-                            <div class="carousel-item" style="background-image: url('/img/carousel-img-1.png')"></div>
+                            <div class="carousel-img" style="background-image: url('/img/carousel-img-1.png')"></div>
                         </div>
                     </div>
                 <?}?>
