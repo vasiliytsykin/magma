@@ -179,6 +179,11 @@
     margin: 0 0 0 auto;
 }
 
+#good-card-carousel.owl-carousel .animated {
+    -webkit-animation-duration: 50ms;
+    animation-duration: 50ms;
+}
+
 
 @media only screen and (max-width: 768px){
     .photo-gallery-content{ width: 100%; }

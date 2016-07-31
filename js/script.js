@@ -6,10 +6,17 @@ $(document).ready(function () {
 
 $(document).ready(function() {
 
-    $('.owl-carousel').owlCarousel({
+    $('#index-carousel.owl-carousel').owlCarousel({
+        items: 1,
+        loop:true,
+        smartSpeed: 700,
+    });
+
+    $('#good-card-carousel.owl-carousel').owlCarousel({
         items: 1,
         loop:false,
-        URLhashListener:true
+        URLhashListener:true,
+        animateOut: 'fadeOut'
     });
 });
 
